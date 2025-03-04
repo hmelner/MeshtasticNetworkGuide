@@ -1,5 +1,4 @@
-# **Project Title**
-Communication Network Comparison and Guide
+# **Communication Network Comparison and Guide**
 
 ### Overview
 This project delves into the need for reliable communication across various environments, namely for communities without the resources to communicate with one another and outside of the community, and for emergency situations.
