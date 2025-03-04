@@ -1,7 +1,7 @@
 # **Communication Network Comparison and Guide**
 
-### Overview
-This project delves into the need for reliable communication across various environments, namely for communities without the resources to communicate with one another and outside of the community, and for emergency situations.
+### **Overview**
+This project delves into the need for **reliable communication** across various environments, namely for communities without the resources to communicate with one another and outside of the community, and for emergency situations.
 ### Meshtastic and other Communication Networks
 We have included a comparative analysis with a selection of different communication networks, including Meshtastic, Gotenna, Ad Hoc Networks, Yggdrasil, and CJDNS. These networks are organized into a table and ranked by the criteria of cost, speed, distance, end-user maintenance, rural requirements and urban requirements.
 ### Last Mile Strengths and Weaknesses
