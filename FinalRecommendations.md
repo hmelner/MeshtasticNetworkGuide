@@ -1,4 +1,4 @@
-###Final Recommendation - Why we Recommend Meshtastic?
+# **Final Recommendation - Why we Recommend Meshtastic?**
 
 ### Cost
 The devices offer affordable options ranging from $15 to $109, catering to different budgets. With no subscription fees, this makes the product a cost-effective choice for users looking for long-term value.
