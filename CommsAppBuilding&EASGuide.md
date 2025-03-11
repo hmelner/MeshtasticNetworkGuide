@@ -45,3 +45,11 @@ Creating any app requires an app developer, and since our objective here is an S
   D-->E
 
 ```
+
+## Key Components of A Messaging App
+1) **Authorization -** Give users a personal account, whether it be using a phone number, email, or an app specific user and password login.
+2) **Access to Contacts -** In certain apps, we are able to give access to our existing contacts app to transfer that information rather than manually creating new contacts for the new app. This feature would be very useful for a communication app.
+3) **Sharing Location -**
+4) **Error-Handling -**
+5) **SMS Character Limits -**
+6) **Time Stamping -**
