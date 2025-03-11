@@ -30,7 +30,7 @@ Creating any app requires an app developer, and since our objective here is an S
   graph LR
   A["1\) Find suitable Arduino board"]
   style A fill:#67ea94,stroke:#000000,stroke-width:2px
-  B["2\) Find GSM Module<br> **G**lobal **S**ystem for **M**obile<br>Communications (Group Spécial Mobile)"]
+  B["2\) Find GSM Module<br> (**G**lobal **S**ystem for **M**obile)"]
   style B fill:#67ea94,stroke:#000000,stroke-width:2px
   C["3\) Install software <br> Arduino IDE"]
   style C fill:#67ea94,stroke:#000000,stroke-width:2px
