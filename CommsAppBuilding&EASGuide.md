@@ -13,8 +13,8 @@
 ## Arduino App
 ```mermaid
   graph LR
-  A["1\) Find an suitable Arduino board"]
-  --> B["2\) Find GSM Module<br> *G*lobal *S*ystem for *M*obile<br>Communications (Group Spécial Mobile)"]
+  A["1\) Find suitable Arduino board"]
+  --> B["2\) Find GSM Module<br> **G**lobal **S**ystem for **M**obile<br>Communications (Group Spécial Mobile)"]
   B-->C["3\) Install software <br> Arduino IDE"]
   C-->D["4\) Connect GSM Module to Arduino"]
   D-->E["5\) Write code <br> use AT commands"]
