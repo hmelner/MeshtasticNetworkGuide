@@ -5,15 +5,22 @@
   graph LR
   A["1\) Find an App Developer<br>e.g. React Native, Flutter"]
   style A fill:#ffcc00,stroke:#000000,stroke-width:2px
-  --> B["2\) Install software<br>e.g. Node.js"]
+  B["2\) Install software<br>e.g. Node.js"]
   style B fill:#ffcc00,stroke:#000000,stroke-width:2px
-  B-->C["3\) Design simple UI for easy usage"]
+  C["3\) Design simple UI for easy usage"]
   style C fill:#ffcc00,stroke:#000000,stroke-width:2px
-  C-->D["4\) Integrate SMS Functionality"]
+  D["4\) Integrate SMS Functionality"]
   style D fill:#ffcc00,stroke:#000000,stroke-width:2px
-  D-->E["5\) Set up Message Processing"]
+  E["5\) Set up Message Processing"]
   style E fill:#ffcc00,stroke:#000000,stroke-width:2px
-  E-->F["6\) Test/Publish App"]
+  F["6\) Test/Publish App"]
+  style F fill:#ffcc00,stroke:#000000,stroke-width:2px
+
+  A-->B
+  B-->C
+  C-->D
+  D-->E
+  E-->F
 ```
 ## Arduino App
 ```mermaid
