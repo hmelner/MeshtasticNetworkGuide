@@ -22,7 +22,7 @@
   D-->E
   E-->F
 ```
-Creating an SMS app requires an app developer, and since our objective is something that can be accessible to everyone, we can use platforms like React Native and Flutter which can run on both IOS and Android phones. Next we have to install the necessary software for the platform, like Node.js or React Native, to execute code. Then we design the UI for the app, or how it will look for the user, including a page for the chat channels and the threads in each individual chat. After that we implement the different components necessary for an SMS app through code, like sending and receiving messages and accessing SMS features specifically. And finally, we can test and publish the app.
+Creating any app requires an app developer, and since our objective here is an SMS app that can be accessible to everyone, we can use platforms like React Native or Flutter which can run on both IOS and Android phones. Next we have to install the necessary software for the platform, like Node.js or React Native, to execute code. Then we design the UI for the app, or how it will look for the user, including a page for the chat channels and the threads in each individual chat. After that we implement the different components necessary for an SMS app through code, like sending and receiving messages and accessing SMS features specifically. And finally, we can test and publish the app.
 
 
 ## Arduino App
