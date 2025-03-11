@@ -4,17 +4,17 @@
 ```mermaid
   graph LR
   A["1\) Find an App Developer<br>e.g. React Native, Flutter"]
-  style A fill:#ffcc00,stroke:#000000,stroke-width:2px
+  style A fill:#67ea94,stroke:#000000,stroke-width:2px
   B["2\) Install software<br>e.g. Node.js"]
-  style B fill:#ffcc00,stroke:#000000,stroke-width:2px
+  style B fill:#67ea94,stroke:#000000,stroke-width:2px
   C["3\) Design simple UI for easy usage"]
-  style C fill:#ffcc00,stroke:#000000,stroke-width:2px
+  style C fill:#67ea94,stroke:#000000,stroke-width:2px
   D["4\) Integrate SMS Functionality"]
-  style D fill:#ffcc00,stroke:#000000,stroke-width:2px
+  style D fill:#67ea94,stroke:#000000,stroke-width:2px
   E["5\) Set up Message Processing"]
-  style E fill:#ffcc00,stroke:#000000,stroke-width:2px
+  style E fill:#67ea94,stroke:#000000,stroke-width:2px
   F["6\) Test/Publish App"]
-  style F fill:#ffcc00,stroke:#000000,stroke-width:2px
+  style F fill:#67ea94,stroke:#000000,stroke-width:2px
 
   A-->B
   B-->C
