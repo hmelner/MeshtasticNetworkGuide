@@ -43,8 +43,9 @@ Creating any app requires an app developer, and since our objective here is an S
   B-->C
   C-->D
   D-->E
-
 ```
+There are different types of Arduino boards to pick from to create a communication Arduino app; considering the input and output pins on the board, an Arduino MKR GSM 1400 would be a good fit for the following steps. We would then need a GSM module, which is a small device that accepts a phone SIM card and allows the phone to connect to a communication system. When a message is sent, the arduino sends commands to the GSM, which then sends an SMS to the phone specified. Then we install the software, like for the SMS app, and in this case it would be the arduino IDE . After that, we connect the GSM module to the Arduino through pins. And finally, we write the code for the Arduino app, in which we can use AT commands for network connection.
+
 
 ## Key Components of A Messaging App
 1) **Authorization -** Give users a personal account, whether it be using a phone number, email, or an app specific user and password login.
