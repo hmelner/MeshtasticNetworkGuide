@@ -26,8 +26,19 @@
 ```mermaid
   graph LR
   A["1\) Find suitable Arduino board"]
-  --> B["2\) Find GSM Module<br> **G**lobal **S**ystem for **M**obile<br>Communications (Group Spécial Mobile)"]
-  B-->C["3\) Install software <br> Arduino IDE"]
-  C-->D["4\) Connect GSM Module to Arduino"]
-  D-->E["5\) Write code <br> use AT commands"]
+  style A fill:#67ea94,stroke:#000000,stroke-width:2px
+  B["2\) Find GSM Module<br> **G**lobal **S**ystem for **M**obile<br>Communications (Group Spécial Mobile)"]
+  style B fill:#67ea94,stroke:#000000,stroke-width:2px
+  C["3\) Install software <br> Arduino IDE"]
+  style C fill:#67ea94,stroke:#000000,stroke-width:2px
+  D["4\) Connect GSM Module to Arduino"]
+  style D fill:#67ea94,stroke:#000000,stroke-width:2px
+  E["5\) Write code <br> use AT commands"]
+  style E fill:#67ea94,stroke:#000000,stroke-width:2px
+
+  A-->B
+  B-->C
+  C-->D
+  D-->E
+
 ```
