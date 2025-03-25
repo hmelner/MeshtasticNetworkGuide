@@ -2,8 +2,7 @@
 
 | Network example | Rural Topopgrahy Definition              | Topology Ranking |
 |-----------------|------------------------------------------|------------------|
-| Meshtastic      | Well in remote, long range               | 1                |
- style Meshtastic fill:#67ea94,stroke:#000000,stroke-width:2px
+| <span style="color:green;">Meshtastic</span>      | Well in remote, long range               | 1                |
 | Yggdrasil       | Infrastructure dependance, but works     | 2                |
 | CJDNS           | Infrastructure dependance, but works     | 3                |
 | Gotenna         | Okay, but shorter range than Mesh        | 4                |
