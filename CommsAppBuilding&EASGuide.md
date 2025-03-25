@@ -55,9 +55,9 @@ There are different types of Arduino boards to pick from to create a communicati
 5) **SMS Character Limits -** Set character limits for the size of a message to reduce the likelihood of time delays or other errors for message sending.
 6) **Time Stamping -** Display time-stamping as this is important in emergency situations.
 
-
-
-
+<br>
+<br>
+<br>
 
 ## **Emergency Alert System (EAS) Integration**
 
