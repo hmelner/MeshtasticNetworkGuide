@@ -63,7 +63,7 @@ There are different types of Arduino boards to pick from to create a communicati
   style A fill:#67ea94,stroke:#000000,stroke-width:2px
   B["2\) Gateway node listens for EAS signals"]
   style B fill:#67ea94,stroke:#000000,stroke-width:2px
-  C["3\) Node processes information from detected alerts"]
+  C["3\) Node processes info from detected alerts"]
   style C fill:#67ea94,stroke:#000000,stroke-width:2px
   D["4\) Node broadcasts message across meshtastic network"]
   style D fill:#67ea94,stroke:#000000,stroke-width:2px
