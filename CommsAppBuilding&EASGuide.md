@@ -55,6 +55,10 @@ There are different types of Arduino boards to pick from to create a communicati
 5) **SMS Character Limits -** Set character limits for the size of a message to reduce the likelihood of time delays or other errors for message sending.
 6) **Time Stamping -** Display time-stamping as this is important in emergency situations.
 
+
+
+
+
 ## **Emergency Alert System (EAS) Integration**
 
 Existing examples of EAS systems include Ambert Alerts, Meshtastic SAME EAS Alerter, and Disaster Radio. Amber Alerts specifically are used to alert about kidnappings of children 17 or younger, only if it’s believed by the law enforcement agency that the child is in imminent danger of injury or death. There’s criteria in place that the scenario has to fit before an amber alert is sent out so that the alert isn’t overused, because that would make it undermined by the public and ineffective. The Meshtastic SAME EAS Alerter is a github project in which the alerter “listens” for warnings or emergency messages, like those from the national weather service, and sends that information in messages through a meshtastic network. It uses RTL SDR, which a low cost software defined radio usb connection device that can receive and transmit signals and also decode radio transmissions. There are two channels, the alert channel for real emergency alerts and the test channel for test messages that make sure the system is working. Disaster Radio is an older github project which implements meshtastic technology with more messaging and networking tools for an area without traditional infrastructure.
