@@ -54,3 +54,27 @@ There are different types of Arduino boards to pick from to create a communicati
 4) **Error-Handling -** The app should be able to handle invalid inputs, failed messages and network issues, and notify the user when this occurs.
 5) **SMS Character Limits -** Set character limits for the size of a message to reduce the likelihood of time delays or other errors for message sending.
 6) **Time Stamping -** Display time-stamping as this is important in emergency situations.
+
+## **Basics of Emergency Alert System (EAS) Apps**
+
+```mermaid
+  graph LR
+  A["1\) Implement gateway nodes with SDR reciever"]
+  style A fill:#67ea94,stroke:#000000,stroke-width:2px
+  B["2\) Gateway node listens for EAS signals"]
+  style B fill:#67ea94,stroke:#000000,stroke-width:2px
+  C["3\) Node processes information from detected alerts"]
+  style C fill:#67ea94,stroke:#000000,stroke-width:2px
+  D["4\) Node broadcasts message across meshtastic network"]
+  style D fill:#67ea94,stroke:#000000,stroke-width:2px
+
+  A-->B
+  B-->C
+  C-->D
+```
+text blah
+
+## Key Components and Challenges of an EAS App
+1) **Verification of information -** Give use
+2) **Alert Sending -** 
+3) **Improve Remote Area EAS Access -** 
