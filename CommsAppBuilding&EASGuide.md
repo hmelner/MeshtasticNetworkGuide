@@ -55,8 +55,12 @@ There are different types of Arduino boards to pick from to create a communicati
 5) **SMS Character Limits -** Set character limits for the size of a message to reduce the likelihood of time delays or other errors for message sending.
 6) **Time Stamping -** Display time-stamping as this is important in emergency situations.
 
-## **Basics of Emergency Alert System (EAS) Apps**
+## **Emergency Alert System (EAS) Integration**
 
+Existing examples of EAS systems include Ambert Alerts, Meshtastic SAME EAS Alerter, and Disaster Radio. Amber Alerts specifically are used to alert about kidnappings of children 17 or younger, only if it’s believed by the law enforcement agency that the child is in imminent danger of injury or death. There’s criteria in place that the scenario has to fit before an amber alert is sent out so that the alert isn’t overused, because that would make it undermined by the public and ineffective. The Meshtastic SAME EAS Alerter is a github project in which the alerter “listens” for warnings or emergency messages, like those from the national weather service, and sends that information in messages through a meshtastic network. It uses RTL SDR, which a low cost software defined radio usb connection device that can receive and transmit signals and also decode radio transmissions. There are two channels, the alert channel for real emergency alerts and the test channel for test messages that make sure the system is working. Disaster Radio is an older github project which implements meshtastic technology with more messaging and networking tools for an area without traditional infrastructure.
+
+
+## Meshtastic Integration Approach
 ```mermaid
   graph LR
   A["1\) Implement gateway nodes with SDR reciever"]
@@ -72,9 +76,10 @@ There are different types of Arduino boards to pick from to create a communicati
   B-->C
   C-->D
 ```
-text blah
+Integrating an EAS system into Meshtastic could be done using gateway nodes, which are like bridges, in that they can recieve alerts from other official sources and put them into the Meshtastic system. For connection, we can use radio signals such as the NOAA weather radio or SAME-coded Amber alerts, and set up an SDR reciever to recieve and decode the alerts. The bridging process begins with the gateway node listening for emergency alert signals, then processing the information from any detected alerts. After this, it will be able to broadcast the message across Meshtastic network to devices within range, then allow those devices to pass on the message to farther devices.
 
+ 
 ## Key Components and Challenges of an EAS App
-1) **Verification of information -** Give use
-2) **Alert Sending -** 
-3) **Improve Remote Area EAS Access -** 
+1) **Verification of information -** Alerts must be accurate and follow a set of criteria to qualify as an emergency (as explained with Amber Alerts) so that they are not undermined and ineffieicnt.
+2) **Alert Sending -** All devices or nodes within the range meant to recieve the alert should recieve the alert.
+3) **Improve Remote Area EAS Access -** The Meshtastic alert system can be combined with other official alert platforms (e.g. FEMA's IPAWS, NOAA Weather Radio, SAME) so people in more remote areas relying on meshtastic can get real time alerts from those as well.
