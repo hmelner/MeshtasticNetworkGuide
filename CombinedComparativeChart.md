@@ -1,9 +1,13 @@
 ## Combined Comparative Critera Ranking for all Networks
 
 **Speed**- The maximum speed in megahertz that the network can support.
+
 **Distance** - The maximum distance in miles that the network can reach.
-**End-User Maintenance Definition** - The level (easy, moderate, difficult) of dificulty in setting up the network . 
+
+**End-User Maintenance Definition** - The level (easy, moderate, difficult) of dificulty in setting up the network.
+
 **Rural Topography Definition** - How well (easy, moderate, difficult) the network can work in different ranges and dependances respective to Rural Topography.
+
 **Urban Topography Definition** - How well (easy, moderate, difficult) the network can work in different ranges and dependances respective to Urban Topography.
 
 | Network | Meshtastic | Gotenna | AdHoc | Yggdrasil | CJDNS |
