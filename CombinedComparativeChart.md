@@ -10,6 +10,7 @@
 
 **Urban Topography Definition** - How well (easy, moderate, difficult) the network can work in different ranges and dependances respective to Urban Topography.
 
+
 | Network | Meshtastic | Gotenna | AdHoc | Yggdrasil | CJDNS |
 |---------|------------|---------|-------|-----------|-------|
 |Average Speed (MHz)|895.5|152.5|3350|0.1001|5000|
