@@ -12,8 +12,10 @@
 
 **Ranking Legend**
 | 1 | 2 | 3 | 4 | 5 |
+|---------|------------|---------|-------|-----------|
 |Most Preferred|Well Preferred|Moderately Preffered|Fairly Preferred|Least Preferred|
 
+**Ranking Table**
 | Network | Meshtastic | Gotenna | AdHoc | Yggdrasil | CJDNS |
 |---------|------------|---------|-------|-----------|-------|
 |Average Speed (MHz)|895.5|152.5|3350|0.1001|5000|
