@@ -14,7 +14,7 @@
 **Ranking Legend**
 | 1 | 2 | 3 | 4 | 5 |
 |---------|------------|---------|-------|-----------|
-|Most Preferred|Well Preferred|Moderately Preffered|Fairly Preferred|Least Preferred|
+|Most Preferred|Well Preferred|Moderately Preferred|Fairly Preferred|Least Preferred|
 
 <br/>
 
