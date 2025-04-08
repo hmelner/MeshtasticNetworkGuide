@@ -9,12 +9,12 @@
 **Rural Topography Definition** - How well (easy, moderate, difficult) the network can work in different ranges and dependances respective to Rural Topography.
 
 **Urban Topography Definition** - How well (easy, moderate, difficult) the network can work in different ranges and dependances respective to Urban Topography.
-< br / >
+<br/>
 **Ranking Legend**
 | 1 | 2 | 3 | 4 | 5 |
 |---------|------------|---------|-------|-----------|
 |Most Preferred|Well Preferred|Moderately Preffered|Fairly Preferred|Least Preferred|
-< br / >
+<br/>
 **Ranking Table**
 | Network | Meshtastic | Gotenna | AdHoc | Yggdrasil | CJDNS |
 |---------|------------|---------|-------|-----------|-------|
