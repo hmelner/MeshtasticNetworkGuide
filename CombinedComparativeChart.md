@@ -15,7 +15,9 @@
 | 1 | 2 | 3 | 4 | 5 |
 |---------|------------|---------|-------|-----------|
 |Most Preferred|Well Preferred|Moderately Preffered|Fairly Preferred|Least Preferred|
+
 <br/>
+
 **Ranking Table**
 | Network | Meshtastic | Gotenna | AdHoc | Yggdrasil | CJDNS |
 |---------|------------|---------|-------|-----------|-------|
