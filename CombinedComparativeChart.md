@@ -10,6 +10,9 @@
 
 **Urban Topography Definition** - How well (easy, moderate, difficult) the network can work in different ranges and dependances respective to Urban Topography.
 
+**Ranking Legend**
+| 1 | 2 | 3 | 4 | 5 |
+|Most Preferred|Well Preferred|Moderately Preffered|Fairly Preferred|Least Preferred|
 
 | Network | Meshtastic | Gotenna | AdHoc | Yggdrasil | CJDNS |
 |---------|------------|---------|-------|-----------|-------|
