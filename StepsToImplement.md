@@ -33,17 +33,19 @@ Recommend using “nRF52-based devices” – preferred for solar and handset
 3) **Understand Limitations** - Some regions, like EU_433 and EU_868, restrict how often transmissions can occur.
 *Configuration*
 1) **Radio Configuration** - Manages device operations and connectivity:
->>> a) Bluetooth: Enable, Pairing Mode, Fixed PIN Channels: Index, Role, Settings
-&nbsp&nbsp&nbsp&nbsp b) Device: Role, Serial Output, Debug Log, Factory Reset
-&nbsp&nbsp&nbsp&nbsp c) Display: Screen Duration, Auto Carousel, GPS Format
-&nbsp&nbsp&nbsp&nbsp d) LoRa: Region, Modem, Max Hops, Transmit Power, etc.
-&nbsp&nbsp&nbsp&nbsp e) Network: WiFi & NTP settings
-&nbsp&nbsp&nbsp&nbsp f) Position: GPS settings & Smart Broadcast
-&nbsp&nbsp&nbsp&nbsp h) Power: Charge Current, Power Saving, Sleep Intervals
-&nbsp&nbsp&nbsp&nbsp i) Security: Keys, Admin Access, Debug Logs
-&nbsp&nbsp&nbsp&nbsp j) User: Long Name, Short Name, Licensing
-2) **Module Configuration** - Enhances device functionality:
-3) **Remote Admin** - Securely manage nodes over the mesh:
+<ul>
+  a) Bluetooth: Enable, Pairing Mode, Fixed PIN Channels: Index, Role, Settings
+  b) Device: Role, Serial Output, Debug Log, Factory Reset
+  c) Display: Screen Duration, Auto Carousel, GPS Format
+  d) LoRa: Region, Modem, Max Hops, Transmit Power, etc.
+  e) Network: WiFi & NTP settings
+  f) Position: GPS settings & Smart Broadcast
+  h) Power: Charge Current, Power Saving, Sleep Intervals
+  i) Security: Keys, Admin Access, Debug Logs
+  j) User: Long Name, Short Name, Licensing
+</ul>
+3) **Module Configuration** - Enhances device functionality:
+4) **Remote Admin** - Securely manage nodes over the mesh:
 
 
 
