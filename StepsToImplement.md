@@ -58,7 +58,7 @@ k. Serial<br>
 l. Store & Forward<br>
 m. Telemetry<br>
 n. Traceroute <br></ul>
-3) **Remote Admin** - Securely manage nodes over the mesh:
+3) **Remote Admin** - Securely manage nodes over the mesh:<br>
 Remote Administration is a powerful, advanced feature best suited for experienced users. If misconfigured, it can cause a remote node to disconnect from the mesh entirely. <ul>
 a. Security & Access Control<br><ul>
 i. Firmware 2.5+: Use Public Key (PKC method)<br>
