@@ -34,15 +34,15 @@ Recommend using “nRF52-based devices” – preferred for solar and handset
 *Configuration*
 1) **Radio Configuration** - Manages device operations and connectivity:
 <ul>
-  a) Bluetooth: Enable, Pairing Mode, Fixed PIN Channels: Index, Role, Settings
-  b) Device: Role, Serial Output, Debug Log, Factory Reset
-  c) Display: Screen Duration, Auto Carousel, GPS Format
-  d) LoRa: Region, Modem, Max Hops, Transmit Power, etc.
-  e) Network: WiFi & NTP settings
-  f) Position: GPS settings & Smart Broadcast
-  h) Power: Charge Current, Power Saving, Sleep Intervals
-  i) Security: Keys, Admin Access, Debug Logs
-  j) User: Long Name, Short Name, Licensing
+  a) Bluetooth: Enable, Pairing Mode, Fixed PIN Channels: Index, Role, Settings <br>
+  b) Device: Role, Serial Output, Debug Log, Factory Reset <br>
+  c) Display: Screen Duration, Auto Carousel, GPS Format <br>
+  d) LoRa: Region, Modem, Max Hops, Transmit Power, etc. <br>
+  e) Network: WiFi & NTP settings <br>
+  f) Position: GPS settings & Smart Broadcast <br>
+  h) Power: Charge Current, Power Saving, Sleep Intervals <br>
+  i) Security: Keys, Admin Access, Debug Logs <br>
+  j) User: Long Name, Short Name, Licensing <br>
 </ul>
 3) **Module Configuration** - Enhances device functionality:
 4) **Remote Admin** - Securely manage nodes over the mesh:
