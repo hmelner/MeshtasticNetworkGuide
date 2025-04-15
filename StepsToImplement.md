@@ -33,7 +33,7 @@ Recommend using “nRF52-based devices” – preferred for solar and handset
 3) **Understand Limitations** - Some regions, like EU_433 and EU_868, restrict how often transmissions can occur.
 *Configuration*
 1) **Radio Configuration** - Manages device operations and connectivity:
-&nbsp&nbsp&nbsp&nbsp a) Bluetooth: Enable, Pairing Mode, Fixed PIN Channels: Index, Role, Settings
+>>> a) Bluetooth: Enable, Pairing Mode, Fixed PIN Channels: Index, Role, Settings
 &nbsp&nbsp&nbsp&nbsp b) Device: Role, Serial Output, Debug Log, Factory Reset
 &nbsp&nbsp&nbsp&nbsp c) Display: Screen Duration, Auto Carousel, GPS Format
 &nbsp&nbsp&nbsp&nbsp d) LoRa: Region, Modem, Max Hops, Transmit Power, etc.
