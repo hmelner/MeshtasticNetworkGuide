@@ -60,7 +60,7 @@ m. Telemetry<br>
 n. Traceroute <br></ul>
 3) **Remote Admin** - Securely manage nodes over the mesh:<ul>
 a. add title<br>
-b. Setup<br></ul>
+b. Setup<br><ul>
 i. PKC Method: Copy the local node’s public key to the remote node’s Admin Keys (up to 3 keys).<br>
 ii. Legacy Method: Create an admin channel with a shared PSK and enable Legacy Admin in Security Config.<br></ul>
 c. Usage<br><ul>
