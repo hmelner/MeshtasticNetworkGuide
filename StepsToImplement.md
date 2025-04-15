@@ -32,8 +32,7 @@ Recommend using “nRF52-based devices” – preferred for solar and handset
 2) **Set the Region** - Depending on your device (Apple, Android, CLI, Web) follow the steps to set the correct frequency range
 3) **Understand Limitations** - Some regions, like EU_433 and EU_868, restrict how often transmissions can occur.
 *Configuration*
-1) **Radio Configuration** - Manages device operations and connectivity:
-<ul>
+1) **Radio Configuration** - Manages device operations and connectivity:<ul>
   a) Bluetooth: Enable, Pairing Mode, Fixed PIN Channels: Index, Role, Settings <br>
   b) Device: Role, Serial Output, Debug Log, Factory Reset <br>
   c) Display: Screen Duration, Auto Carousel, GPS Format <br>
