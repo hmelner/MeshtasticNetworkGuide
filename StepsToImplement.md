@@ -71,76 +71,178 @@ i. Connect to a local node via the Meshtastic App.<br>
 ii. Go to Settings > Configure Node, and select the remote node.<br>
 iii. Adjust settings and switch back to your node when done.<br></ul></ul>
 
-## Step 3: Connect to your Device
-Prerequisites: 
-  Advanced Feature: Intended for experienced users; incorrect settings can disconnect a node from the mesh. Test changes on a separate node first.
-  Function: Allows secure remote administration of Meshtastic nodes over the mesh network.
-  Default Security: Nodes only accept admin commands via USB, Bluetooth, or TCP unless configured for remote administration.
-  Firmware 2.5+: Requires storing the local node’s public key in the remote node’s Admin Key fields (supports up to three keys).
-  Firmware 2.4. x and Earlier: Uses an admin channel with a shared PSK to allow remote management.
-  Legacy Support: The admin channel method can still be used in firmware 2.5+, but only for pre-2.5 nodes and must be enabled manually.
-  Managed Mode: Optional setting that restricts radio configurations but is not required for remote administration.
+## Step 3: Connect to your Device 
+
+Prerequisites: 
+
+*   Advanced Feature: Intended for experienced users; incorrect settings can disconnect a node from the mesh. Test changes on a separate node first.
+    
+*   Function: Allows secure remote administration of Meshtastic nodes over the mesh network.
+    
+*   Default Security: Nodes only accept admin commands via USB, Bluetooth, or TCP unless configured for remote administration.
+    
+*   Firmware 2.5+: Requires storing the local node’s public key in the remote node’s Admin Key fields (supports up to three keys).
+    
+*   Firmware 2.4. x and Earlier: Uses an admin channel with a shared PSK to allow remote management.
+    
+*   Legacy Support: The admin channel method can still be used in firmware 2.5+, but only for pre-2.5 nodes and must be enabled manually.
+    
+*   Managed Mode: Optional setting that restricts radio configurations but is not required for remote administration.
+    
+
 Platforms:
-  iOS App
-    Using the PKC Method (Firmware 2.5+)
-      Connect to the local node (admin node).
-      Enable Administration in Settings > App Settings.
-      Find and copy the public key under Settings > Radio Configuration > Security.
-      Connect to the remote node.
-      Add the copied public key as an Admin Key under Security (up to 3 keys can be added).
-    Using the Legacy Method (Firmware 2.4.x and earlier)
-      Create an Admin channel by setting up a secondary channel named admin.	
-      Enable the Legacy Admin channel in Security Config.
-    Carrying Out Remote Admin Tasks
-      Open the Meshtastic App and connect to the local node.
-      Go to Settings > Configure Node and select the remote node.
-      Adjust supported Radio and Module settings as needed.
-      When done, switch back to your local node in Settings > Configure Node.
-  Android App
-    Using the PKC Method (Firmware 2.5+)
-Connect to the local (admin) node.
-Go to ⋮ > Radio Configuration > Security and copy the public key.
-Connect to the remote node.
-In the same Security menu, press "Add" and paste the public key into the Admin Key field.
-Up to 3 Admin Keys can be added, allowing multiple controlling nodes.
-Using the Legacy Method (Firmware 2.4.x and earlier)
-Set up an Admin channel by creating a secondary channel named admin.
-Enable the Legacy Admin channel in Security Config.
-Carrying Out Remote Admin Tasks
-Open the Meshtastic App and connect to the local node.
-In the node list pane, tap the Short Name in the colored bubble, then select More details.
-Select Remote Administration (gear icon).
-Configure Radio and Module settings as needed.
-Web Client
-Using the PKC Method (Firmware 2.5+)
-Connect to the local (admin) node.
-Go to Config > Radio Config > Security and copy the public key.
-Connect to the remote node.
-In the same Security menu, add the public key as an Admin Key (only one Admin Key can be added via the web interface).
-Save the configuration.
-Carrying Out Remote Admin Tasks
-Remote administration commands are not supported in the Meshtastic Web Client.
-Python CLI/SDK
-Using the PKC Method (Firmware 2.5+)
-Connect via USB to the local (admin) node.
-Retrieve its public key by running: 
-meshtastic --get security.public_key
-Copy the public key for configuring the remote node.
-Connect via USB to the remote node.
-Set the Admin Key on the remote node by running:
-meshtastic --set security.admin_key "base64:PASTEPUBLICKEYHERE"
-Up to 3 Admin Keys can be added, allowing multiple controlling nodes.
-Using the Legacy Method (Firmware 2.4.x and earlier)
-Create an Admin channel as a secondary channel named admin.
-Enable Legacy Admin channel in Security Config by running:
-meshtastic --set security.admin_channel_enabled
-Carrying Out Remote Admin Tasks
-Use the --dest argument with the !nodeid of the target node.
-Only --set and --get commands are supported for remote administration.
-Example command to modify parameters or retrieve settings:
-meshtastic --set security.admin_key "PASTEPUBLICKEYHERE" --dest '!28979058'
-Linux/Mac: Use single quotes for --dest ('!nodeid').
-Windows: Quotes are not required (!nodeid).
+
+1.  iOS App
+    
+
+1.  Using the PKC Method (Firmware 2.5+)
+    
+
+1.  Connect to the local node (admin node).
+    
+2.  Enable Administration in Settings > App Settings.
+    
+3.  Find and copy the public key under Settings > Radio Configuration > Security.
+    
+4.  Connect to the remote node.
+    
+5.  Add the copied public key as an Admin Key under Security (up to 3 keys can be added).
+    
+
+3.  Using the Legacy Method (Firmware 2.4.x and earlier)
+    
+
+1.  Create an Admin channel by setting up a secondary channel named admin.
+    
+2.  Enable the Legacy Admin channel in Security Config.
+    
+
+5.  Carrying Out Remote Admin Tasks
+    
+
+1.  Open the Meshtastic App and connect to the local node.
+    
+2.  Go to Settings > Configure Node and select the remote node.
+    
+3.  Adjust supported Radio and Module settings as needed.
+    
+4.  When done, switch back to your local node in Settings > Configure Node.
+    
+
+3.  Android App
+    
+
+1.  Using the PKC Method (Firmware 2.5+)
+    
+
+1.  Connect to the local (admin) node.
+    
+2.  Go to ⋮ > Radio Configuration > Security and copy the public key.
+    
+3.  Connect to the remote node.
+    
+4.  In the same Security menu, press "Add" and paste the public key into the Admin Key field.
+    
+5.  Up to 3 Admin Keys can be added, allowing multiple controlling nodes.
+    
+
+3.  Using the Legacy Method (Firmware 2.4.x and earlier)
+    
+
+1.  Set up an Admin channel by creating a secondary channel named admin.
+    
+2.  Enable the Legacy Admin channel in Security Config.
+    
+
+5.  Carrying Out Remote Admin Tasks
+    
+
+1.  Open the Meshtastic App and connect to the local node.
+    
+2.  In the node list pane, tap the Short Name in the colored bubble, then select More details.
+    
+3.  Select Remote Administration (gear icon).
+    
+4.  Configure Radio and Module settings as needed.
+    
+
+5.  Web Client
+    
+
+1.  Using the PKC Method (Firmware 2.5+)
+    
+
+1.  Connect to the local (admin) node.
+    
+2.  Go to Config > Radio Config > Security and copy the public key.
+    
+3.  Connect to the remote node.
+    
+4.  In the same Security menu, add the public key as an Admin Key (only one Admin Key can be added via the web interface).
+    
+5.  Save the configuration.
+    
+
+3.  Carrying Out Remote Admin Tasks
+    
+
+1.  Remote administration commands are not supported in the Meshtastic Web Client.
+    
+
+7.  Python CLI/SDK
+    
+
+1.  Using the PKC Method (Firmware 2.5+)
+    
+
+1.  Connect via USB to the local (admin) node.
+    
+2.  Retrieve its public key by running: 
+    
+
+1.  meshtastic --get security.public\_key
+    
+
+4.  Copy the public key for configuring the remote node.
+    
+5.  Connect via USB to the remote node.
+    
+6.  Set the Admin Key on the remote node by running:
+    
+
+1.  meshtastic --set security.admin\_key "base64:PASTEPUBLICKEYHERE"
+    
+
+8.  Up to 3 Admin Keys can be added, allowing multiple controlling nodes.
+    
+
+3.  Using the Legacy Method (Firmware 2.4.x and earlier)
+    
+
+1.  Create an Admin channel as a secondary channel named admin.
+    
+2.  Enable Legacy Admin channel in Security Config by running:
+    
+
+1.  meshtastic --set security.admin\_channel\_enabled
+    
+
+5.  Carrying Out Remote Admin Tasks
+    
+
+1.  Use the --dest argument with the !nodeid of the target node.
+    
+2.  Only --set and --get commands are supported for remote administration.
+    
+3.  Example command to modify parameters or retrieve settings:
+    
+
+1.  meshtastic --set security.admin\_key "PASTEPUBLICKEYHERE" --dest '!28979058'
+    
+
+1.  Linux/Mac: Use single quotes for --dest ('!nodeid').
+    
+2.  Windows: Quotes are not required (!nodeid).
 
 
 
