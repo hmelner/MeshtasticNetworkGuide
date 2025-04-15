@@ -34,17 +34,42 @@ Recommend using “nRF52-based devices” – preferred for solar and handset
 
 *Configuration*
 1) **Radio Configuration** - Manages device operations and connectivity:<ul>
-  a) Bluetooth: Enable, Pairing Mode, Fixed PIN Channels: Index, Role, Settings <br>
-  b) Device: Role, Serial Output, Debug Log, Factory Reset <br>
-  c) Display: Screen Duration, Auto Carousel, GPS Format <br>
-  d) LoRa: Region, Modem, Max Hops, Transmit Power, etc. <br>
-  e) Network: WiFi & NTP settings <br>
-  f) Position: GPS settings & Smart Broadcast <br>
-  h) Power: Charge Current, Power Saving, Sleep Intervals <br>
-  i) Security: Keys, Admin Access, Debug Logs <br>
-  j) User: Long Name, Short Name, Licensing <br></ul>
-2) **Module Configuration** - Enhances device functionality:
-3) **Remote Admin** - Securely manage nodes over the mesh:
+  a. Bluetooth: Enable, Pairing Mode, Fixed PIN Channels: Index, Role, Settings <br>
+  b. Device: Role, Serial Output, Debug Log, Factory Reset <br>
+  c. Display: Screen Duration, Auto Carousel, GPS Format <br>
+  d. LoRa: Region, Modem, Max Hops, Transmit Power, etc. <br>
+  e. Network: WiFi & NTP settings <br>
+  f. Position: GPS settings & Smart Broadcast <br>
+  h. Power: Charge Current, Power Saving, Sleep Intervals <br>
+  i. Security: Keys, Admin Access, Debug Logs <br>
+  j. User: Long Name, Short Name, Licensing <br></ul>
+2) **Module Configuration** - Enhances device functionality:<ul>
+a. Ambient Lighting<br>
+b. Audio<br>
+c. Canned Messages<br>
+d. External Alerts<br>
+e. Detection Sensor<br>
+f. MQTT<br>
+g. Neighbor Info<br>
+h. Paxcounter<br>
+i. Range Test<br>
+j. Remote Hardware<br>
+k. Serial<br>
+l. Store & Forward<br>
+m. Telemetry<br>
+n. Traceroute <br></ul>
+3) **Remote Admin** - Securely manage nodes over the mesh:<ul>
+a. add title<br>
+b. Setup<br></ul>
+i. PKC Method: Copy the local node’s public key to the remote node’s Admin Keys (up to 3 keys).<br>
+ii. Legacy Method: Create an admin channel with a shared PSK and enable Legacy Admin in Security Config.<br></ul>
+c. Usage<br><ul>
+i. Connect to a local node via the Meshtastic App.<br>
+ii. Go to Settings > Configure Node, and select the remote node.<br>
+iii. Adjust settings and switch back to your node when done.<br></ul></ul>
+
+## Step 3: Connect to your Device
+
 
 
 
