@@ -1,4 +1,4 @@
-# Step by Step Guide**
+# Step by Step Guide
 
 ### **Step 1: Choose a Device**
 Can be installed on a range of development boards
