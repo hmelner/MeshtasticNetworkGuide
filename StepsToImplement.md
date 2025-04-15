@@ -42,8 +42,7 @@ Recommend using “nRF52-based devices” – preferred for solar and handset
   f) Position: GPS settings & Smart Broadcast <br>
   h) Power: Charge Current, Power Saving, Sleep Intervals <br>
   i) Security: Keys, Admin Access, Debug Logs <br>
-  j) User: Long Name, Short Name, Licensing <br>
-</ul>
+  j) User: Long Name, Short Name, Licensing <br></ul>
 2) **Module Configuration** - Enhances device functionality:
 3) **Remote Admin** - Securely manage nodes over the mesh:
 
