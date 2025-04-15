@@ -58,8 +58,11 @@ k. Serial<br>
 l. Store & Forward<br>
 m. Telemetry<br>
 n. Traceroute <br></ul>
-3) **Remote Admin** - Securely manage nodes over the mesh:<ul>
-a. add title<br>
+3) **Remote Admin** - Securely manage nodes over the mesh:<ul><br>
+Remote Administration is a powerful, advanced feature best suited for experienced users. If misconfigured, it can cause a remote node to disconnect from the mesh entirely. <br>
+a. Security & Access Control<br><ul>
+i. Firmware 2.5+: Use Public Key (PKC method)<br>
+ii. Older Firmware: Use Admin Channel (Legacy method)<br></ul>
 b. Setup<br><ul>
 i. PKC Method: Copy the local node’s public key to the remote node’s Admin Keys (up to 3 keys).<br>
 ii. Legacy Method: Create an admin channel with a shared PSK and enable Legacy Admin in Security Config.<br></ul>
