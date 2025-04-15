@@ -43,8 +43,8 @@ Recommend using “nRF52-based devices” – preferred for solar and handset
   i) Security: Keys, Admin Access, Debug Logs <br>
   j) User: Long Name, Short Name, Licensing <br>
 </ul>
-3) **Module Configuration** - Enhances device functionality:
-4) **Remote Admin** - Securely manage nodes over the mesh:
+2) **Module Configuration** - Enhances device functionality:
+3) **Remote Admin** - Securely manage nodes over the mesh:
 
 
 
