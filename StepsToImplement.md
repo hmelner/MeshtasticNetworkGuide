@@ -21,7 +21,7 @@ Community Favorites:
 - Portable, durable, uses low power MCU NRF52840, battery life ~5 days</ul>
 * Station G2<ul>
 - Designed to be a base station or in a vehicle (not very portable)</ul>
-Note: <br>
+Note:
 Recommend devices with newer “Semtech SX126x or LR11xx series”<br>
 - Increased receive and transmit performance <br>
 Recommend using “nRF52-based devices” – preferred for solar and handset
