@@ -17,10 +17,10 @@ Community Favorites:
 - T-Beam<ul>
 * ESP32 microcontroller, LoRa radio module, OLED Display, GPS, Ready-to-go, GPS, Wifi
 * Not easy to customize</ul></ul>
-* Nano G2 Ultra
-- Portable, durable, uses low power MCU NRF52840, battery life ~5 days
-* Station G2
-- Designed to be a base station or in a vehicle (not very portable)
+* Nano G2 Ultra<ul>
+- Portable, durable, uses low power MCU NRF52840, battery life ~5 days</ul>
+* Station G2<ul>
+- Designed to be a base station or in a vehicle (not very portable)</ul>
 Note: <br>
 Recommend devices with newer “Semtech SX126x or LR11xx series”<br>
 - Increased receive and transmit performance <br>
