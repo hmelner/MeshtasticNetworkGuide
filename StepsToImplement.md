@@ -26,7 +26,7 @@ Note:<br>
 
 Recommend devices with newer “Semtech SX126x or LR11xx series”<br>
 - Increased receive and transmit performance
-Recommend using “nRF52-based devices” – preferred for solar and handset
+<br>Recommend using “nRF52-based devices” – preferred for solar and handset
 
 **Best for Beginners: RAK Meshtastic Starter Kit or LILYGO T-Echo**
 * Look for these features: <ul>
