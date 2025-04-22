@@ -3,20 +3,20 @@
 ## **Step 1: Choose a Device**
 *Can be installed on a range of development boards*
 Community Favorites:
-* RAK Meshtastic Start Kit <br>
+* RAK Meshtastic Start Kit <ul>
 - Wisblock Starter Kit <ul>
 * Customizable, Beginner friendly, nRF52840 chip, Bluetooth, no soldering
-* No built-in GPS, No Screen </ul>
-* HELTEC LoRa V3
+* No built-in GPS, No Screen </ul></ul>
+* HELTEC LoRa V3<ul>
 - Better handheld, More customization available, built-in OLED displays, ESP32, Ready-to-go, Wifi
-- No GPS, Not easy to customize
-* LILYGO LoRa T3-S3
+- No GPS, Not easy to customize</ul>
+* LILYGO LoRa T3-S3<ul>
 - T-Echo<ul>
 * Backlit E-Ink screen, 5.0 Bluetooth, GPS, SX1262 chip, 850 mSh battery, no soldering, nRF52840, Ready-to-use product
 * No Wifi, not easy to customize</ul>
 - T-Beam<ul>
 * ESP32 microcontroller, LoRa radio module, OLED Display, GPS, Ready-to-go, GPS, Wifi
-* Not easy to customize</ul>
+* Not easy to customize</ul></ul>
 * Nano G2 Ultra
 - Portable, durable, uses low power MCU NRF52840, battery life ~5 days
 * Station G2
