@@ -15,5 +15,8 @@ Creating and maintaining a communication network requires many components includ
 ### Communication Network and EAS App-Building Guide
 Creating a communication network app can be done in different ways, and this section will go through a guide on SMS and Arduino app-building as well as the key components required for a successfull platform. Adding to this is a guide on how we could approach the implementation of a mass communication emergency alert system into a network like Meshtastic, with a discussion of examples, challenges and an integration strategy. 
 
+### Steps to Implement
+Added an instruction files on how to implement steps to implement the communication network.
+
 ### Recommendations
 Through the research of this information, our team has established some final recommendations, such as our reasons for choosing Meshtastic over other networks, which are included in this section.
