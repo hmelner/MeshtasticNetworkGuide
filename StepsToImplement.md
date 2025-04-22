@@ -1,9 +1,9 @@
 # Step by Step Guide
 
-### **Step 1: Choose a Device**
-Can be installed on a range of development boards
+## **Step 1: Choose a Device**
+*Can be installed on a range of development boards*
 Community Favorites:
-  RAK Meshtastic Start Kit
+* RAK Meshtastic Start Kit
     Wisblock Starter Kit
       Customizable, Beginner friendly, nRF52840 chip, Bluetooth, no soldering
       No built-in GPS, No Screen
