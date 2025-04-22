@@ -79,7 +79,7 @@ i. Connect to a local node via the Meshtastic App.<br>
 ii. Go to Settings > Configure Node, and select the remote node.<br>
 iii. Adjust settings and switch back to your node when done.<br></ul></ul>
 
-**Step 3: Connect to your Device**
+## **Step 3: Connect to your Device**
 
 **Prerequisites:**
 
